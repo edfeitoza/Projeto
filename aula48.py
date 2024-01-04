@@ -32,8 +32,32 @@ print(lista)
 ultimo_Valor = lista.pop(3)
 print(lista, 'Removido: ', ultimo_Valor)
 ###############################################
-'''
+
 lista = [10, 20, 30, 40]
 print(lista)
 lista.insert(0, 1)
 print(lista)
+###############################################
+
+lista_a = [1,2,3]
+lista_b = [4,5,6]
+
+lista_c = lista_a + lista_b
+print(lista_c)
+
+lista_a.extend(lista_b)
+print(lista_a)
+###############################################
+
+Cuidados com os dados mutáveis
+
+= - copiando o valor (imutáveis)
+= - aponta para o mesmo valor na memória (mutávesl)
+
+'''
+lista_a = ['Python', 'PHP', 'C']
+lista_b = lista_a.copy()
+print(lista_b)
+lista_b = lista_a
+lista_a[2] = 'Delphi'
+print(lista_b)
