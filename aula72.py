@@ -4,6 +4,7 @@
 # não nomeados recebidos
 # Retorne o total para uma variável e mostre o valor
 # da variável.
+# https://www.youtube.com/watch?v=-3HJcQMWv7Y
 
 def multiplica(*args):
     total = 1
@@ -11,19 +12,22 @@ def multiplica(*args):
         total *= numero
     return total
 
-multi1 = multiplica(2,2,2,4)
+
+multi1 = multiplica(2, 2, 2, 4)
 print(multi1)
 
 
 # Crie uma função fala se um número é par ou ímpar.
 # Retorne se o número é par ou ímpar.
 
-def parimpar(x):
-    if x%2:
-        print(f'O valor informado {x}, é impar!!')
-    else:
-        print(f'O valor informado {x}, é par!!')
 
-num1 = int(input('Informe um valor para checar se é impar ou par: '))
+def parimpar(x):
+    if x % 2:
+        print(f"O valor informado {x}, é impar!!")
+    else:
+        print(f"O valor informado {x}, é par!!")
+
+
+num1 = int(input("Informe um valor para checar se é impar ou par: "))
 
 parimpar(num1)
