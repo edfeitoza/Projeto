@@ -4,8 +4,10 @@
 # não nomeados recebidos
 # Retorne o total para uma variável e mostre o valor
 # da variável.
+# m
 # https://www.youtube.com/watch?v=-3HJcQMWv7Y
 # & D:\Program1\Python311\Scripts\black.exe .\aula72.py
+
 
 def multiplica(*args):
     total = 1
