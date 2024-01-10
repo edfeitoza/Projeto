@@ -40,14 +40,14 @@
 # Métodos úteis:
 # add, update, clear, discard
 
-s1 = set()
-s1.add('Python')
-s1.add('programacao')
-s1.update(('Ola Mundo', 1,2,3,4))
-s1.discard('Ola Mundo')
-s1.clear()
+# s1 = set()
+# s1.add('Python')
+# s1.add('programacao')
+# s1.update(('Ola Mundo', 1,2,3,4))
+# s1.discard('Ola Mundo')
+# s1.clear()
 
-print(s1)
+# print(s1)
 
 ######################################################
 # Operadores úteis:
@@ -56,4 +56,17 @@ print(s1)
 # diferença - Itens presentes apenas no set da esquerda
 # diferença simétrica ^ - Itens que não estão em ambos
 
- 
+s1 = {1,2,3,5}
+s2 = {2,3,4,5}
+
+s3 = s1 | s2
+print(f'esses valores existem na lista s1 e s2, sem repetir',s3)
+
+s4 = s1 & s2
+print(f'valores que existem na lista s1 e s2',s4)
+
+s5 = s1 - s2
+print(f'esse valor existe na lista S1',s5)
+s6 = s2 - s1
+print(f'esse valor existe na lista S2',s6)
+
