@@ -60,13 +60,13 @@ s1 = {1,2,3,5}
 s2 = {2,3,4,5}
 
 s3 = s1 | s2
-print(f'esses valores existem na lista s1 e s2, sem repetir',s3)
+print(f'esses valores nos sets s1 e s2, sem repetir',s3)
 
 s4 = s1 & s2
-print(f'valores que existem na lista s1 e s2',s4)
+print(f'valores que nos sets s1 e s2',s4)
 
 s5 = s1 - s2
-print(f'esse valor existe na lista S1',s5)
+print(f'esse valor existe nos sets S1',s5)
 s6 = s2 - s1
-print(f'esse valor existe na lista S2',s6)
+print(f'esse valor nos sets S2',s6)
 
