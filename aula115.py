@@ -9,3 +9,9 @@
 # ambiente virtual, mas os mais comuns são:
 # venv env .venv .env
 
+#Criando um ambiente virtual
+
+#python -m venv venv
+# 
+# Buscar caminho do Pythsc  on
+# gcm python.exe -Syntax
