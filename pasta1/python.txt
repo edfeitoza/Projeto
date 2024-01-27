@@ -1,0 +1,16 @@
+linha 1
+linha 2
+linha 3
+linha 4
+linha 5
+linha 6
+linha 7
+linha 8
+Atenção
+Facão
+Açougue
+Malhação
+AtenÃ§Ã£o
+FacÃ£o
+AÃ§ougue
+MalhaÃ§Ã£o
